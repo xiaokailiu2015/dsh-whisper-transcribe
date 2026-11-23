@@ -1,0 +1,12 @@
+- insert:
+    - id: whisper-transcribe
+      name: 'dsh-whisper-transcribe'
+      config:
+        pythonPath: 'C:\Users\xiaok\AppData\Local\Programs\Python\Python314\python.exe'
+        modelPath: 'G:\Data\Potplayer\Model\faster-whisper-large-v3-turbo'
+        nvidiaDir: 'C:\Users\xiaok\AppData\Local\Programs\Python\Python314\Lib\site-packages\nvidia'
+        device: cuda
+        computeType: float16
+        language: ''
+        outputDir: ''
+        timeoutMs: 1800000

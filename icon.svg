@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Whisper transcription">
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="none" stroke="#2f6f6a" stroke-width="3"/>
+  <rect x="26" y="14" width="12" height="22" rx="6" fill="#2f6f6a"/>
+  <path d="M19 32a13 13 0 0 0 26 0" fill="none" stroke="#2f6f6a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M32 45v7" fill="none" stroke="#2f6f6a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M22 52h20" fill="none" stroke="#2f6f6a" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Whisper 语音转写",
+    "description": "用本地 faster-whisper 模型在 GPU 上转写音频和视频文件，生成文本记录与 SRT 字幕。",
+    "detail": "docs/DETAIL.md"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Whisper transcription",
+    "description": "Transcribe audio and video files locally with a faster-whisper model on the GPU, writing a text transcript and SRT subtitles.",
+    "detail": "docs/DETAIL.md"
+  }
+}
