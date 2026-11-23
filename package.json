@@ -1,6 +1,6 @@
 {
   "name": "dsh-whisper-transcribe",
-  "version": "0.4.0",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "description": "Local speech-to-text through faster-whisper on the GPU",
@@ -17,7 +17,8 @@
     "cordis.patch.yml",
     "locale/*.json",
     "docs",
-    "icon.svg"
+    "icon.svg",
+    "README.md"
   ],
   "dsh": {
     "bundle": {

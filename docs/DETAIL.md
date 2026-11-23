@@ -21,8 +21,8 @@ file, or into `outputDir` when that is set.
 |---|---|
 | `pythonPath` | Interpreter that has `faster-whisper` installed. |
 | `modelPath` | Local CTranslate2 model directory, such as a converted `large-v3-turbo`. |
-| `device` | `cuda` or `cpu`. |
-| `computeType` | `float16` on GPU, `int8` is a good CPU fallback. |
+| `device` | `cuda` or `cpu`, chosen from a dropdown. |
+| `computeType` | Derived from the device: `float16` on GPU, `int8` on CPU. Read-only in the form. |
 | `language` | Default language code; empty detects it per file. |
 | `outputDir` | Where transcripts are written; empty means beside the source file. |
 | `nvidiaDir` | Optional `site-packages\nvidia` directory, used to prepend the cuBLAS and cuDNN DLL folders for the worker. Leave it empty when the system `PATH` already exports them. |
@@ -34,3 +34,7 @@ file, or into `outputDir` when that is set.
 - `.amr` and other legacy containers are decoded through `ffmpeg` when PyAV cannot open them, so
   `ffmpeg` must be on `PATH` for those formats.
 - The tool only transcribes; it does not translate, diarize speakers, or stream partial results.
+
+---
+
+Powered by DeepSeek V4.1 Flash 1017 · built with DeepSeek Harness
